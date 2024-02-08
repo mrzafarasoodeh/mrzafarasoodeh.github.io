@@ -1,0 +1,81 @@
+body {
+    height: 90%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #d5e8fd, #fff 15% 85%, #d5e8fd);
+    background-color: rgb(250, 252, 254);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(37, 102, 222);
+}
+
+.name-section {
+    padding: 4% 0% 2% 0%;
+}
+.about-section {
+    padding: 5% 3% 1% 3%;
+}
+
+.more-section {
+    padding: 8% 3.5% 5% 2%;
+    /* font-family:; */
+}
+
+.contact-section {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    /* background-color: #fdfdfb */
+}
+
+.thename {
+    background: linear-gradient(to right, #004080, #007AFF);
+    -webkit-background-clip: text; /* For WebKit/Blink browsers */
+    color: transparent;
+    line-height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subt {
+    background: linear-gradient(to top, #3d485e, #5f6782 50%);
+    -webkit-background-clip: text; /* For WebKit/Blink browsers */
+    color: transparent;
+    font-weight: normal;
+}
+
+
+.main {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens, e.g., phones */
+    body, html {
+        /* align-items: center; */
+        height: auto;
+        /* background-color: azure; */
+
+    }
+    h1, h2 {
+        margin-top: 1.5em;
+    }
+
+    .name-section {
+        padding: 4% 0% 0% 0%;
+    }
+    .about-section {
+        padding: 5%;
+    }
+
+    .more-section {
+        padding: 0 5% 5% 5%;
+    }
+    .adinfo {
+        font-weight: 400;
+    }
+}
