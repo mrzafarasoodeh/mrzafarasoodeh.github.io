@@ -53,7 +53,43 @@ a {
     overflow-x: hidden;
 }
 
+.ftr {
+    text-align-last: center;
+    padding: 1em 0 0 0;
+}
+
+.lxi {
+    /* text-align-last: center; */
+    color: rgb(127, 127, 127);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
 @media (max-width: 768px) {
+    /* Adjust styles for smaller screens, e.g., phones */
+    body, html {
+        height: auto;
+    }
+    h1, h2 {
+        margin-top: 1.5em;
+    }
+
+    .name-section {
+        padding: 5% 0% 0% 0%;
+    }
+    .about-section {
+        padding: 5% 1% 1% 1%;
+    }
+
+    .more-section {
+        padding: 0 0 5% 0;
+    }
+    .adinfo {
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 576px) {
     /* Adjust styles for smaller screens, e.g., phones */
     body, html {
         /* align-items: center; */
